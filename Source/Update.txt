@@ -1,0 +1,35 @@
+Programming a Multiplayer FPS in DirectX Update
+
+Vaughan Young (vyoung@coderedgames.com)
+
+Version 1.1 - 28 June, 2005
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+INTRODUCTION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thank you for purchasing Programming a Multiplayer FPS in DirectX. This update is intended to resolve minor issues that some people were experiencing as well as fixing some bugs and memory leaks. If you are still experiencing problems after applying this update, please go to the forums at www.coderedgames.com for support.
+
+Many of the bugs corrected in this update were pointed out by members on the forum. Thank you again to all those that helped find these bugs.
+
+
+
+IMPORTANT NOTE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Only the source code files have been updated. The compiled executables and libraries are not updated to reflect the source code changes.
+
+Therefore you MUST recompile the executable for each chapter in order to take advantage of this update.
+
+Remember to compile Chapter 10 before compiling the executables for Chapters 11-13. As long as you are using the Chapter 10 project workspace included on the CD-ROM, the new Post-Build script will automatically copy the Engine.lib file across to Chapters 11-13 for you. Otherwise you will need to manually copy the Engine.lib file to the Engine folder in Chapters 11-13 before compiling their executables.
+
+
+
+VERSION UPDATE HISTORY
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v1.1 - 28 June, 2005
+* Corrected a number of small bugs and memory leaks.
+* Changed the linking library "d3dx9dt.lib" to "d3dx9d.lib" in each project.
+* Added a Post-Build script to the Chapter 10 Engine project to copy the Engine.lib file to Chapters 11-13.
+* Fixed the Direct3D device creation code to handle different device types.
+* Add a frame rate display to the engine in Chapter 10.
